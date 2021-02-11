@@ -121,9 +121,15 @@
 
 <!--Presentation-->
 ## Additional Resources
+<ul>
+    <li>
+        <a href="https://drive.google.com/file/d/12ReGYi7UZF7lPau33RnMqzxeMJWCdfJj/view">Our method PPT</a>
+    </li>
+    <li>
+        <a href="https://www.sciencedirect.com/science/article/pii/S1361841520302188">Challenge Paper</a>
+    </li>
+</ul>
 
-<a href="https://drive.google.com/file/d/12ReGYi7UZF7lPau33RnMqzxeMJWCdfJj/view">Our method PPT</a>
-<a href="https://www.sciencedirect.com/science/article/pii/S1361841520302188">PAIP 2019: Liver cancer segmentation challenge</a>
 <!--prerequisites-->
 ## prerequisites
 * imgaug
