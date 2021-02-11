@@ -30,6 +30,18 @@
         <li>
             Our method
             <ul>
+                <li>
+                <strong>Task 1: Liver Cancer Segmentation</strong>
+                <p>
+                    a
+                </p>
+                </li>
+                <li>
+                <strong>Task 2: Viable Tumor Burden Estimation</strong>
+                <p>
+                    a
+                </p>
+                </li>
             </ul>
         </li>
         <li>
