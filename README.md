@@ -94,8 +94,6 @@
 <!-- Our method -->
 ## Our method
 <p align="center">
-    <img src="data/images/overview.PNG" alt="overview">
-    <h5 align="center">Figure1.Overview</h5>
 </p>
 
 <!-- Results -->
@@ -120,9 +118,12 @@
         </ul>
     </li>
 </ul>
+
 <!--Presentation-->
-## Presentation
-<a href="https://drive.google.com/file/d/12ReGYi7UZF7lPau33RnMqzxeMJWCdfJj/view">PPT</a>
+## Additional Resources
+
+<a href="https://drive.google.com/file/d/12ReGYi7UZF7lPau33RnMqzxeMJWCdfJj/view">Our method PPT</a>
+<a href="https://www.sciencedirect.com/science/article/pii/S1361841520302188">PAIP 2019: Liver cancer segmentation challenge</a>
 <!--prerequisites-->
 ## prerequisites
 * imgaug
