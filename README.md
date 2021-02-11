@@ -5,9 +5,8 @@
     <a href="https://paip2019.grand-challenge.org">
         <img src="data/images/logo.png" alt="Logo">
     </a>
-    <h3 align="center">paip2019</h3>
+    <h3 align="center">PAIP2019</h3>
     <p align="center"> 
-        PAIP2019 is the second challenge organized by the Pathology AI Platform (PAIP) <br>and the Seoul National University Hospital (SNUH).
     <br>
         <a href="https://paip2019.grand-challenge.org/"><strong>PAIP2019 homepage</strong></a>
     </p>      
