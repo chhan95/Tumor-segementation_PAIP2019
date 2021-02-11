@@ -110,11 +110,21 @@
 <ul>
     <li>
         <strong>Validation Results</strong>
-        <p>28 Aug. 2019,Task1 score:0.6975,Task2 score: 0.6558/p>
+        <ul>    
+            <li>28 Aug. 2019</li>
+            <li>Task1 score:0.6975</li>
+            <li>Task2 score: 0.6558</li>
+        </ul>
     </li>
     <li>
         <strong>Test Results</strong>
-        <p>Sept. 10, 2019, 12:33 a.m.,Task1 rank: 14,Task1 score: 0.665227214,Task2 rank:7, Task2 score :0.633028622</p>
+        <ul>
+            <li>Sept. 10, 2019, 12:33 a.m.</li>
+            <li>Task1 rank: 14</li>
+            <li>Task1 score: 0.665227214</li>
+            <li>Task2 rank:7</li>
+            <li>Task2 score :0.633028622</li>
+        </ul>
     </li>
 </ul>
 
