@@ -7,7 +7,7 @@
     </a>
     <h3 align="center">PAIP2019</h3>
     <p align="center"> 
-        The goal of the challenge is to evaluate new and existing algorithms for automated detection of liver cancer in whole-slide images (WSIs). 
+        PAIP2019 is the first challenge organized by the Pathology AI Platform (PAIP)
        <br>
         <a href="https://paip2019.grand-challenge.org/"><strong>PAIP2019 homepage</strong></a>
     </p>      
@@ -40,7 +40,7 @@
                 <li>
                 <strong>Task 2: Viable Tumor Burden Estimation</strong>
                 <p>
-                    a
+                    $$\sqrt{3x-1}+(1+x)^2$$
                 </p>
                 </li>
             </ul>
@@ -58,7 +58,43 @@
 
 <!--PAIP2019 challenge-->
 ## PAIP2019 Challenge
+<ul>
+    <li>
+        <strong>background:</strong>
+        <p>
+        </p>
+    </li>
+    <li>
+        <strong>dataset</strong></li>
+        <p>
+           <ul>
+                <li>The training dataset contains 50 WSIs</li>
+                <li>The validation dataset contains 10 WSIs</li> 
+                <li>The test dataset contains 40 WSIs</li>
+                <p>
+                    All WSIs were scanned at 40X magnification
+                </p>
+           </ul>
+        </p>
+    <li>
+        <strong>evaluation</strong>
+        <ul>
+            <li>
+               <strong>Task1: Cancer segmentation, Jaccard Index</strong>
+               <p></p> 
+            </li>
+            <li>
+                <strong>Task2: Viable Tumor Burden Estimation</strong>
+                <p>
+                    Each Task1 case score is used as a weight for each Task2 case score.
+                    
+                </p>
+            </li>
+        </ul>
+    </li>
+ 
 
+</ul>
 
 <!-- ABOUT THE PROJECT -->
 ## Our method
