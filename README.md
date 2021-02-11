@@ -78,16 +78,16 @@
         <strong>evaluation</strong>
         <ul>
             <li>
-               **Task1: Cancer segmentation**
+               <strong>Task1: Cancer segmentation</strong>
                <p>
-                    <img src="data/images/CodeCogsEqn.gif" />  
+                    <img src="data/images/Task1.png" />  
                </p> 
             </li>
             <li>
                 <strong>Task2: Viable Tumor Burden Estimation</strong>
                 <p>
                     Each Task1 case score is used as a weight for each Task2 case score.
-                   
+                    <img src="data/images/Task2.png" />  
                 </p>
             </li>
         </ul>
