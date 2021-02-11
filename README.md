@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
     <a href="https://paip2019.grand-challenge.org">
-        <img src="data/images/logo.jpg" alt="Logo">
+        <img src="data/images/logo.png" alt="Logo">
     </a>
     <h3 align="center">paip2019</h3>
     <p align="center"> 
