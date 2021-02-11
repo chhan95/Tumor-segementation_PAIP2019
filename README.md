@@ -78,15 +78,16 @@
         <strong>evaluation</strong>
         <ul>
             <li>
-               <strong>Task1: Cancer segmentation, Jaccard Index</strong>
-               <p></p> 
+               **Task1: Cancer segmentation**
+               <p>
+                    <img src="data/images/CodeCogsEqn.gif" />  
+               </p> 
             </li>
             <li>
                 <strong>Task2: Viable Tumor Burden Estimation</strong>
                 <p>
                     Each Task1 case score is used as a weight for each Task2 case score.
-                    <img src="https://latex.codecogs.com/svg.latex?\;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
-
+                   
                 </p>
             </li>
         </ul>
