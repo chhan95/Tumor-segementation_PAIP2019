@@ -110,11 +110,11 @@
 <ul>
     <li>
         <strong>Validation Results</strong>
-        <p>28 Aug. 2019	| 0.6975	| 0.6558/p>
+        <p>28 Aug. 2019,Task1 score:0.6975,Task2 score: 0.6558/p>
     </li>
     <li>
         <strong>Test Results</strong>
-        <p>Sept. 10, 2019, 12:33 a.m.| 0.665227214 | 7 |	0.633028622</p>
+        <p>Sept. 10, 2019, 12:33 a.m.,Task1 rank: 14,Task1 score: 0.665227214,Task2 rank:7, Task2 score :0.633028622</p>
     </li>
 </ul>
 
