@@ -7,7 +7,8 @@
     </a>
     <h3 align="center">PAIP2019</h3>
     <p align="center"> 
-    <br>
+        The goal of the challenge is to evaluate new and existing algorithms for automated detection of liver cancer in whole-slide images (WSIs). 
+       <br>
         <a href="https://paip2019.grand-challenge.org/"><strong>PAIP2019 homepage</strong></a>
     </p>      
 </p>
