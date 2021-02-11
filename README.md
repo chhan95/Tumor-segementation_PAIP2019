@@ -40,7 +40,7 @@
                 <li>
                 <strong>Task 2: Viable Tumor Burden Estimation</strong>
                 <p>
-                    $$\sqrt{3x-1}+(1+x)^2$$
+                  
                 </p>
                 </li>
             </ul>
@@ -48,9 +48,7 @@
         <li>
             prerequisites
         </li>
-         <li>
-            certification
-        </li>
+      
     </ol>
 </details>
 
@@ -87,7 +85,8 @@
                 <strong>Task2: Viable Tumor Burden Estimation</strong>
                 <p>
                     Each Task1 case score is used as a weight for each Task2 case score.
-                    
+                    <img src="https://latex.codecogs.com/svg.latex?\;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
+
                 </p>
             </li>
         </ul>
@@ -96,7 +95,7 @@
 
 </ul>
 
-<!-- ABOUT THE PROJECT -->
+<!-- Our method -->
 ## Our method
 <p align="center">
     <img src="data/images/overview.PNG" alt="overview">
@@ -116,5 +115,4 @@
   ```sh
   pip install tifffile
   ```
-
 
