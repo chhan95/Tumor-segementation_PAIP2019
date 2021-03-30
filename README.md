@@ -6,7 +6,7 @@
         <img src="data/images/logo.png" alt="Logo">
     </a>
     <h3 align="center">PAIP2019</h3>
-    <p align="center"> 
+    <p align="center">
         PAIP2019 is the first challenge organized by the Pathology AI Platform (PAIP)
        <br>
         <a href="https://paip2019.grand-challenge.org/"><strong>PAIP2019 homepage</strong></a>
@@ -50,7 +50,7 @@
         <li>
             prerequisites
         </li>
-      
+
     </ol>
 </details>
 
@@ -69,7 +69,7 @@
         <p>
            <ul>
                 <li>The training dataset contains 50 WSIs</li>
-                <li>The validation dataset contains 10 WSIs</li> 
+                <li>The validation dataset contains 10 WSIs</li>
                 <li>The test dataset contains 40 WSIs</li>
                 <p>
                     All WSIs were scanned at 40X magnification
@@ -87,13 +87,28 @@
             </li>
         </ul>
     </li>
- 
+
 
 </ul>
 
 <!-- Our method -->
 ## Our method
 <p align="center">
+
+
+<!-- How to use -->
+## How to use
+<p align="center">
+  <ol>
+    <li> 1. put your data into "./dataset"
+    <li> 2. Download pretrained models into "./pretrained"
+    <li> 3. Run run_infer.sh
+  </ol>
+</p>
+<!--Pretrained Weight-->
+## Pretrained Weight
+<p>
+  <a href="  https://drive.google.com/drive/folders/1_XYv5gVB0OoAK8-GU5A64cVMQmkdd0He?usp=sharing">Pretrained model Link</a>
 </p>
 
 <!-- Results -->
@@ -118,6 +133,8 @@
         </ul>
     </li>
 </ul>
+
+
 
 <!--Presentation-->
 ## Additional Resources
@@ -144,4 +161,3 @@
   ```sh
   pip install tifffile
   ```
-
