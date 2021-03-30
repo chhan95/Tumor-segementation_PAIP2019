@@ -100,10 +100,10 @@
 Only support single GPU, it will take 10 minutes per each WSI.
 <p align="center">
   <ol>
-    <li> put your data into input_path (only support .svs format)
+    <li> put your data into input_path(./dataset) (only support .svs format)
     <li> Download pretrained models into "./pretrained"
     <li> Run run_infer.sh
-    <li> you can see your result at output_path.
+    <li> you can see your result at output_path(./output).
       <p>
         <ul>
           <li> "?_v.tif" : viable tumor prediction
