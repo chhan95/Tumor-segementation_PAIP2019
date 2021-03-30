@@ -33,9 +33,6 @@
             <ul>
                 <li>
                 <strong>Task 1: Liver Cancer Segmentation</strong>
-                <p>
-                    a
-                </p>
                 </li>
                 <li>
                 <strong>Task 2: Viable Tumor Burden Estimation</strong>
@@ -44,6 +41,9 @@
                 </li>
             </ul>
         </li>
+        <li>
+            How to use
+        <li>
         <li>
             Results
         </li>
@@ -105,8 +105,9 @@
     <li> 3. Run run_infer.sh
   </ol>
 </p>
-<!--Pretrained Weight-->
-## Pretrained Weight
+
+<!--pretrained Weight-->
+## pretrained Weight
 <p>
   <a href="  https://drive.google.com/drive/folders/1_XYv5gVB0OoAK8-GU5A64cVMQmkdd0He?usp=sharing">Pretrained model Link</a>
 </p>
