@@ -36,14 +36,13 @@
                 </li>
                 <li>
                 <strong>Task 2: Viable Tumor Burden Estimation</strong>
-                <p>
-                </p>
                 </li>
             </ul>
         </li>
         <li>
             How to use
-        <li>
+        </li>
+
         <li>
             Results
         </li>
