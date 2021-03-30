@@ -97,6 +97,7 @@
 
 <!-- How to use -->
 ## How to use
+Only support single GPU, it will take 10 minutes per each WSI.
 <p align="center">
   <ol>
     <li> put your data into "./dataset"
@@ -148,6 +149,10 @@
 
 <!--prerequisites-->
 ## prerequisites
+* docopt
+  ```sh
+  pip install docopt
+  ```
 * imgaug
   ```sh
   pip install imgaug
