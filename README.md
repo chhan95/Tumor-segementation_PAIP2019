@@ -109,7 +109,7 @@
 <!--pretrained Weight-->
 ## pretrained Weight
 <p>
-  <a href="  https://drive.google.com/drive/folders/1_XYv5gVB0OoAK8-GU5A64cVMQmkdd0He?usp=sharing">Pretrained model Link</a>
+  <a href="https://drive.google.com/drive/folders/1_XYv5gVB0OoAK8-GU5A64cVMQmkdd0He?usp=sharing">Pretrained model Link</a>
 </p>
 
 <!-- Results -->
@@ -126,10 +126,9 @@
     <li>
         <strong>Test Results</strong>
         <ul>
-            <li>Sept. 10, 2019, 12:33 a.m.</li>
-            <li>Task1 rank: 14</li>
+            <li>Task1 rank: 5th</li>
             <li>Task1 score: 0.665227214</li>
-            <li>Task2 rank:7</li>
+            <li>Task2 rank: 3rd</li>
             <li>Task2 score :0.633028622</li>
         </ul>
     </li>
@@ -144,7 +143,7 @@
         <a href="https://drive.google.com/file/d/12ReGYi7UZF7lPau33RnMqzxeMJWCdfJj/view">Our method PPT</a>
     </li>
     <li>
-        <a href="https://www.sciencedirect.com/science/article/pii/S1361841520302188">Challenge Paper</a>
+        <a href="https://www.sciencedirect.com/science/article/pii/S1361841520302188">Paper of Challenge</a>
     </li>
 </ul>
 
