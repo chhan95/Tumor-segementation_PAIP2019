@@ -106,8 +106,8 @@ Only support single GPU, it will take 10 minutes per each WSI.
     <li> you can see your result at output_path.
       <p>
         <ul>
-          <li>"?_v.tif" is viable tumor prediction
-          <li>"?_wt.tif" is whole tumor area prediction
+          <li> "?_v.tif" : viable tumor prediction
+          <li>"?_wt.tif" : whole tumor area prediction
         </ul>
       </p>
   </ol>
