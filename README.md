@@ -103,6 +103,13 @@ Only support single GPU, it will take 10 minutes per each WSI.
     <li> put your data into "./dataset" (only support .svs format)
     <li> Download pretrained models into "./pretrained"
     <li> Run run_infer.sh
+    <li> you can see your result at output_path.
+      <p>
+        <ul>
+          <li>"?_v.tif" is viable tumor prediction
+          <li>"?_wt.tif" is whole tumor area prediction
+        </ul>
+      </p>
   </ol>
 </p>
 
