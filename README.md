@@ -100,9 +100,9 @@
 ## How to use
 <p align="center">
   <ol>
-    <li> 1. put your data into "./dataset"
-    <li> 2. Download pretrained models into "./pretrained"
-    <li> 3. Run run_infer.sh
+    <li> put your data into "./dataset"
+    <li> Download pretrained models into "./pretrained"
+    <li> Run run_infer.sh
   </ol>
 </p>
 
