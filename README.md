@@ -100,7 +100,7 @@
 Only support single GPU, it will take 10 minutes per each WSI.
 <p align="center">
   <ol>
-    <li> put your data into "./dataset"
+    <li> put your data into "./dataset" (only support .svs format)
     <li> Download pretrained models into "./pretrained"
     <li> Run run_infer.sh
   </ol>
