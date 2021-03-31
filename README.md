@@ -1,3 +1,19 @@
+
+
+<!-- PROJECT LOGO -->
+<p align="center">
+    <a href="https://paip2019.grand-challenge.org">
+        <img src="data/images/logo.png" alt="Logo">
+    </a>
+    <h3 align="center">PAIP2019</h3>
+    <p align="center">
+        PAIP2019 is the first challenge organized by the Pathology AI Platform (PAIP)
+       <br>
+        <a href="https://paip2019.grand-challenge.org/"><strong>PAIP2019 homepage</strong></a>
+    </p>      
+</p>
+
+
 <!--prerequisites-->
 ## prerequisites
 * docopt
@@ -37,22 +53,6 @@ Only support single GPU, it will take 10 minutes per each WSI.
       </p>
   </ol>
 </p>
-
-
-<!-- PROJECT LOGO -->
-<p align="center">
-    <a href="https://paip2019.grand-challenge.org">
-        <img src="data/images/logo.png" alt="Logo">
-    </a>
-    <h3 align="center">PAIP2019</h3>
-    <p align="center">
-        PAIP2019 is the first challenge organized by the Pathology AI Platform (PAIP)
-       <br>
-        <a href="https://paip2019.grand-challenge.org/"><strong>PAIP2019 homepage</strong></a>
-    </p>      
-</p>
-
-
 
 <!-- Our method -->
 ## Our method
@@ -99,6 +99,16 @@ Only support single GPU, it will take 10 minutes per each WSI.
 
 <!-- Results -->
 ## Results
+
+<p align="center">
+    <a href="https://paip2019.grand-challenge.org">
+        <img src="data/images/test_result.png" alt="Logo">
+    </a>
+    <p align="center">
+        Figure1. Testset segmentation results
+    </p>      
+</p>
+
 <ul>
     <li>
         <strong>Validation Results</strong>
