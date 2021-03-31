@@ -75,7 +75,7 @@ Only support single GPU, it will take 10 minutes per each WSI.
           In this project, we proposed the method for whole and viable liver tumor segmentation.
           <p>
               Tumor definition
-          </p>
+          
           <ol>
 
                <li>Whole tumor area: This area is defined as the outermost boundary enclosing all dispersed viable tumor cell nests, tumor necrosis, and tumor capsule. </li>
