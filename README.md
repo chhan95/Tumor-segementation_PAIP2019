@@ -1,3 +1,21 @@
+<!--prerequisites-->
+## prerequisites
+* docopt
+  ```sh
+  pip install docopt
+  ```
+* imgaug
+  ```sh
+  pip install imgaug
+  ```
+* openslide-python
+  ```sh
+  pip install openslide-python
+  ```
+* tifffile
+  ```sh
+  pip install tifffile
+  ```
 
 <!-- How to use -->
 ## How to use
@@ -19,24 +37,6 @@ Only support single GPU, it will take 10 minutes per each WSI.
       </p>
   </ol>
 </p>
-<!--prerequisites-->
-## prerequisites
-* docopt
-  ```sh
-  pip install docopt
-  ```
-* imgaug
-  ```sh
-  pip install imgaug
-  ```
-* openslide-python
-  ```sh
-  pip install openslide-python
-  ```
-* tifffile
-  ```sh
-  pip install tifffile
-  ```
 
 
 <!-- PROJECT LOGO -->
