@@ -23,7 +23,7 @@
 
 <!-- How to use -->
 ## How to use
-"""
+'''
 
 ├── code                   
 |   ├── CGC-Net
@@ -49,7 +49,7 @@
 |                 ├──fold_3
 ├── experiment
 
-"""
+'''
 
 
 Only support single GPU, it will take 10 minutes per each WSI.
