@@ -82,7 +82,6 @@ Only support single GPU, it will take 10 minutes per each WSI.
                </p>
           </ul>
         </p>
-
     </li>
     <li>
         <strong>dataset</strong></li>
