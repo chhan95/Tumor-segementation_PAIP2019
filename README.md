@@ -73,9 +73,9 @@ Only support single GPU, it will take 10 minutes per each WSI.
         <p>
           Liver cancr is oen of the most common cancer. For the best prognosis of patients, early diagnosis of liver cancer is crucial task.
           In this project, we proposed the method for whole and viable liver tumor segmentation.
-          <p>
-              Tumor definition
-          
+          <br>
+          Tumor definition
+          <br>
           <ol>
 
                <li>Whole tumor area: This area is defined as the outermost boundary enclosing all dispersed viable tumor cell nests, tumor necrosis, and tumor capsule. </li>
