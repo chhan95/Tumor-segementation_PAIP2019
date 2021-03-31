@@ -54,6 +54,7 @@ Code Structure
 ├── model
 ├── run_infer.py
 ├── run_infer.sh
+├── ....
 ```
 
 Only support single GPU, it will take 10 minutes per each WSI.
