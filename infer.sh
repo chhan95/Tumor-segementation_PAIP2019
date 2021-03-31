@@ -1,1 +1,1 @@
-python run_infer.py --gpu='0,1' --input_path='/media/data1/han/paip19/dataset' --output_path="/media/data1/han/paip19/output"
+python run_infer.py --gpu='0,1' --input_path='./dataset' --output_path="./output"

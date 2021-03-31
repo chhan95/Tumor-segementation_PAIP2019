@@ -1,4 +1,43 @@
 
+<!-- How to use -->
+## How to use
+Only support single GPU, it will take 10 minutes per each WSI.
+<p align="center">
+  <ol>
+    <li> Put your data into input_path(./dataset) (only support .svs format)
+    <li> Download pretrained models into "./pretrained"
+      <p>
+        <a href="https://drive.google.com/drive/folders/1_XYv5gVB0OoAK8-GU5A64cVMQmkdd0He?usp=sharing">Pretrained model Link</a>
+      </p>
+    <li> Run run_infer.sh
+    <li> You can see your result at output_path(./output).
+      <p>
+        <ul>
+          <li> "?_v.tif" : viable tumor prediction
+          <li>"?_wt.tif" : whole tumor area prediction
+        </ul>
+      </p>
+  </ol>
+</p>
+<!--prerequisites-->
+## prerequisites
+* docopt
+  ```sh
+  pip install docopt
+  ```
+* imgaug
+  ```sh
+  pip install imgaug
+  ```
+* openslide-python
+  ```sh
+  pip install openslide-python
+  ```
+* tifffile
+  ```sh
+  pip install tifffile
+  ```
+
 
 <!-- PROJECT LOGO -->
 <p align="center">
@@ -44,7 +83,7 @@
         <strong>evaluation</strong>
         <ul>
             <li>
-               <strong>Task1: Cancer segmentation</strong>
+               <strong>Task1: Whole Tumor segmentation</strong>
             </li>
             <li>
                 <strong>Task2: Viable Tumor Burden Estimation</strong>
@@ -56,45 +95,6 @@
 </ul>
 
 
-<!--prerequisites-->
-## prerequisites
-* docopt
-  ```sh
-  pip install docopt
-  ```
-* imgaug
-  ```sh
-  pip install imgaug
-  ```
-* openslide-python
-  ```sh
-  pip install openslide-python
-  ```
-* tifffile
-  ```sh
-  pip install tifffile
-  ```
-
-<!-- How to use -->
-## How to use
-Only support single GPU, it will take 10 minutes per each WSI.
-<p align="center">
-  <ol>
-    <li> put your data into input_path(./dataset) (only support .svs format)
-    <li> Download pretrained models into "./pretrained"
-      <p>
-        <a href="https://drive.google.com/drive/folders/1_XYv5gVB0OoAK8-GU5A64cVMQmkdd0He?usp=sharing">Pretrained model Link</a>
-      </p>
-    <li> Run run_infer.sh
-    <li> you can see your result at output_path(./output).
-      <p>
-        <ul>
-          <li> "?_v.tif" : viable tumor prediction
-          <li>"?_wt.tif" : whole tumor area prediction
-        </ul>
-      </p>
-  </ol>
-</p>
 
 
 <!-- Results -->
