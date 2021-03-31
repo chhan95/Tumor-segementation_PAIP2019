@@ -1,17 +1,5 @@
 
 
-<!-- PROJECT LOGO -->
-<p align="center">
-    <a href="https://paip2019.grand-challenge.org">
-        <img src="data/images/logo.png" alt="Logo">
-    </a>
-    <h3 align="center">PAIP2019</h3>
-    <p align="center">
-        PAIP2019 is the first challenge organized by the Pathology AI Platform (PAIP)
-       <br>
-        <a href="https://paip2019.grand-challenge.org/"><strong>PAIP2019 homepage</strong></a>
-    </p>      
-</p>
 
 
 <!--prerequisites-->
@@ -61,6 +49,18 @@ Only support single GPU, it will take 10 minutes per each WSI.
 
 <!--PAIP2019 challenge-->
 ## PAIP2019 Challenge
+<p align="center">
+    <a href="https://paip2019.grand-challenge.org">
+        <img src="data/images/logo.png" alt="Logo">
+    </a>
+    <h3 align="center">PAIP2019</h3>
+    <p align="center">
+        PAIP2019 is the first challenge organized by the Pathology AI Platform (PAIP)
+       <br>
+        <a href="https://paip2019.grand-challenge.org/"><strong>PAIP2019 homepage</strong></a>
+    </p>      
+</p>
+
 <ul>
     <li>
         <strong>background:</strong>
@@ -105,7 +105,7 @@ Only support single GPU, it will take 10 minutes per each WSI.
         <img src="data/images/test_result.png" alt="Logo">
     </a>
     <p align="center">
-        Figure1. Testset segmentation results
+        Figure1. Test set segmentation results
     </p>      
 </p>
 
