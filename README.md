@@ -73,14 +73,10 @@ Only support single GPU, it will take 10 minutes per each WSI.
         <p>
           Liver cancr is oen of the most common cancer. For the best prognosis of patients, early diagnosis of liver cancer is crucial task.
           In this project, we proposed the method for whole tumor and viable tumor segmentation in liver.
-          <ul>
-               <li>The training dataset contains 50 WSIs</li>
-               <li>The validation dataset contains 10 WSIs</li>
-               <li>The test dataset contains 40 WSIs</li>
-               <p>
-                   All WSIs were scanned at 40X magnification
-               </p>
-          </ul>
+          <ol>
+               <li>Whole tumor area:This area is defined as the outermost boundary enclosing all dispersed viable tumor cell nests, tumor necrosis, and tumor capsule. </li>
+               <li>Viable tumor area: This region is defined as viable tumor cell nests and as precisely as possible, boundaries along the boundary between the cell and the surrounding stroma. </li>
+          </ol>
         </p>
     </li>
     <li>
@@ -90,9 +86,6 @@ Only support single GPU, it will take 10 minutes per each WSI.
                 <li>The training dataset contains 50 WSIs</li>
                 <li>The validation dataset contains 10 WSIs</li>
                 <li>The test dataset contains 40 WSIs</li>
-                <p>
-                    All WSIs were scanned at 40X magnification
-                </p>
            </ul>
         </p>
     <li>
