@@ -45,7 +45,15 @@ Code Structure
 |   ├── example2_wt.tif
 |   ├── ....
 |
+├── pretrained
+|   ├── whole_cls_tumor_net.pth
+|   ├── ambiguours_tumor_net.pth
+|   ├── viable_tumor_net.pth
+|   ├── viable_seg_net.pth
+|
 ├── model
+├── run_infer.py
+├── run_infer.sh
 ```
 
 Only support single GPU, it will take 10 minutes per each WSI.
