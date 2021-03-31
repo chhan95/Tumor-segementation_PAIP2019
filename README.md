@@ -26,13 +26,17 @@
 Code Structure
 ```
 ├── classification_model
+|
 ├── segmentation_model                  
+|
 ├── infer
 |   ├── inferManager.py
+|
 ├── dataset
 |   ├── example1.svs
 |   ├── example2.svs
 |   ├── ....
+|
 ├── output
 |   ├── example1_v.tif
 |   ├── example2_v.tif
@@ -40,6 +44,7 @@ Code Structure
 |   ├── example1_wt.tif
 |   ├── example2_wt.tif
 |   ├── ....
+|
 ├── model
 ```
 
