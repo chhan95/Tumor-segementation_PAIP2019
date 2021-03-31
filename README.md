@@ -23,30 +23,24 @@
 
 <!-- How to use -->
 ## How to use
+Code Structure
 ```
-├── code                   
-|   ├── CGC-Net
-|
-├── data
-|   ├── proto
-|        ├──mask (put the instance masks into this folder)    
-|             ├──"your-dataset"
-|                 ├──fold_1
-|                       ├──1_normal
-|                       ├──2_low_grade
-|                       ├──3_high_grade
-|                 ├──fold_2
-|                 ├──fold_3
-|
-|   ├── raw(put the images into this folder)	   
-|        ├──"your-dataset"
-|                 ├──fold_1
-|                       ├──1_normal
-|                       ├──2_low_grade
-|                       ├──3_high_grade
-|                 ├──fold_2
-|                 ├──fold_3
-├── experiment
+├── classification_model
+├── segmentation_model                  
+├── infer
+|   ├── inferManager.py
+├── dataset
+|   ├── example1.svs
+|   ├── example2.svs
+|   ├── ....
+├── output
+|   ├── example1_v.tif
+|   ├── example2_v.tif
+|   ├── ....
+|   ├── example1_wt.tif
+|   ├── example2_wt.tif
+|   ├── ....
+├── model
 ```
 
 Only support single GPU, it will take 10 minutes per each WSI.
