@@ -2,8 +2,8 @@
 
 
 
-<!--prerequisites-->
-## prerequisites
+<!--Prerequisites-->
+## Prerequisites
 * docopt
   ```sh
   pip install docopt
@@ -69,7 +69,7 @@ Only support single GPU, it will take 10 minutes per each WSI.
 
 <ul>
     <li>
-        <strong>background:</strong>
+        <strong>Background:</strong>
         <p>
           Liver cancr is oen of the most common cancer. For the best prognosis of patients, early diagnosis of liver cancer is crucial task.
           In this project, we proposed the method for whole and viable liver tumor segmentation.
@@ -81,7 +81,7 @@ Only support single GPU, it will take 10 minutes per each WSI.
         </p>
     </li>
     <li>
-        <strong>dataset</strong></li>
+        <strong>Dataset</strong></li>
         <p>
            <ul>
                 <li>The training dataset contains 50 WSIs</li>
@@ -90,7 +90,7 @@ Only support single GPU, it will take 10 minutes per each WSI.
            </ul>
         </p>
     <li>
-        <strong>evaluation</strong>
+        <strong>Evaluation</strong>
         <ul>
             <li>
                <strong>Task1: Liver Cancer Segmentation</strong>
