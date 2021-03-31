@@ -26,13 +26,13 @@
 Only support single GPU, it will take 10 minutes per each WSI.
 <p align="center">
   <ol>
-    <li> Put your data into input_path(./dataset) (only support .svs format)
+    <li> Put your data into input_path(default: ./dataset) (only support .svs format)
     <li> Download pretrained models into "./pretrained"
       <p>
         <a href="https://drive.google.com/drive/folders/1_XYv5gVB0OoAK8-GU5A64cVMQmkdd0He?usp=sharing">Pretrained model Link</a>
       </p>
     <li> Run run_infer.sh
-    <li> You can see your result at output_path(./output).
+    <li> You can see your result at output_path(default: ./output).
       <p>
         <ul>
           <li> "?_v.tif" : viable tumor prediction
@@ -73,11 +73,11 @@ Only support single GPU, it will take 10 minutes per each WSI.
         <p>
           Liver cancr is oen of the most common cancer. For the best prognosis of patients, early diagnosis of liver cancer is crucial task.
           In this project, we proposed the method for whole and viable liver tumor segmentation.
-          <ol>
+          <ul>
               <strong>Tumor definition</strong>
                <li>Whole tumor area: This area is defined as the outermost boundary enclosing all dispersed viable tumor cell nests, tumor necrosis, and tumor capsule. </li>
                <li>Viable tumor area: This region is defined as viable tumor cell nests and as precisely as possible, boundaries along the boundary between the cell and the surrounding stroma. </li>
-          </ol>
+          </ul>
         </p>
     </li>
     <li>
