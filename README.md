@@ -45,7 +45,11 @@ Only support single GPU, it will take 10 minutes per each WSI.
 <!-- Our method -->
 ## Our method
 <p>
+
+
+  If you want more detials, please visit my blog.
   <h3><a href="https://chhan95.github.io/project/2021/03/15/paip2019.html">Details for train and infer</a></h3>
+
 </p>
 
 
@@ -67,7 +71,16 @@ Only support single GPU, it will take 10 minutes per each WSI.
     <li>
         <strong>background:</strong>
         <p>
-         The liver is a
+          Liver cancr is oen of the most common cancer. For the best prognosis of patients, early diagnosis of liver cancer is crucial task.
+          In this project, we proposed the method for whole tumor and viable tumor segmentation in liver.
+          <ul>
+          Tumor definition
+            <li>whole tumor area: This area is defined as the outermost boundary
+            enclosing all dispersed viable tumor cell nests, tumor necrosis, and tumor capsule.
+            <li>Viable tumor area: This region is defined as viable tumor cell nests and as precisely as possible,
+            boundaries along the boundary between the cell and the surrounding stroma.
+          </ul>
+
         </p>
     </li>
     <li>
