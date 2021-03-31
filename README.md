@@ -45,8 +45,7 @@ Only support single GPU, it will take 10 minutes per each WSI.
 <!-- Our method -->
 ## Our method
 <p>
-  <a href="https://chhan95.github.io/project/2021/03/15/paip2019.html"method link</a>
-  dddddddddddddddddddddddddddddddd
+  <a href="https://chhan95.github.io/project/2021/03/15/paip2019.html"><strong>PAIP2019 homepage</strong></a>
 </p>
 
 
