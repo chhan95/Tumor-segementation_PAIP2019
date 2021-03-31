@@ -15,44 +15,9 @@
 
 
 
-<!--Table of Contents--!>
-
-<strong>Table of contents</strong>
-<details open="open">
-    <ol>
-        <li>
-            PAIP2019 Challenge
-            <ul>
-                <li>background</li>
-                <li>dataset</li>
-                <li>evaluation</li>
-            </ul>
-        </li>
-        <li>
-            Our method
-            <ul>
-                <li>
-                <strong>Task 1: Liver Cancer Segmentation</strong>
-                </li>
-                <li>
-                <strong>Task 2: Viable Tumor Burden Estimation</strong>
-                </li>
-            </ul>
-        </li>
-        <li>
-            How to use
-        </li>
-
-        <li>
-            Results
-        </li>
-        <li>
-            prerequisites
-        </li>
-
-    </ol>
-</details>
-
+<!-- Our method -->
+## Our method
+<p align="center">
 
 
 <!--PAIP2019 challenge-->
@@ -90,10 +55,25 @@
 
 </ul>
 
-<!-- Our method -->
-## Our method
-<p align="center">
 
+<!--prerequisites-->
+## prerequisites
+* docopt
+  ```sh
+  pip install docopt
+  ```
+* imgaug
+  ```sh
+  pip install imgaug
+  ```
+* openslide-python
+  ```sh
+  pip install openslide-python
+  ```
+* tifffile
+  ```sh
+  pip install tifffile
+  ```
 
 <!-- How to use -->
 ## How to use
@@ -115,9 +95,6 @@ Only support single GPU, it will take 10 minutes per each WSI.
       </p>
   </ol>
 </p>
-
-<!--pretrained Weight-->
-## pretrained Weight
 
 
 <!-- Results -->
@@ -154,22 +131,3 @@ Only support single GPU, it will take 10 minutes per each WSI.
         <a href="https://www.sciencedirect.com/science/article/pii/S1361841520302188">Paper of Challenge</a>
     </li>
 </ul>
-
-<!--prerequisites-->
-## prerequisites
-* docopt
-  ```sh
-  pip install docopt
-  ```
-* imgaug
-  ```sh
-  pip install imgaug
-  ```
-* openslide-python
-  ```sh
-  pip install openslide-python
-  ```
-* tifffile
-  ```sh
-  pip install tifffile
-  ```
