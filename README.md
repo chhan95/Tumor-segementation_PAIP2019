@@ -102,6 +102,9 @@ Only support single GPU, it will take 10 minutes per each WSI.
   <ol>
     <li> put your data into input_path(./dataset) (only support .svs format)
     <li> Download pretrained models into "./pretrained"
+      <p>
+        <a href="https://drive.google.com/drive/folders/1_XYv5gVB0OoAK8-GU5A64cVMQmkdd0He?usp=sharing">Pretrained model Link</a>
+      </p>
     <li> Run run_infer.sh
     <li> you can see your result at output_path(./output).
       <p>
@@ -115,9 +118,7 @@ Only support single GPU, it will take 10 minutes per each WSI.
 
 <!--pretrained Weight-->
 ## pretrained Weight
-<p>
-  <a href="https://drive.google.com/drive/folders/1_XYv5gVB0OoAK8-GU5A64cVMQmkdd0He?usp=sharing">Pretrained model Link</a>
-</p>
+
 
 <!-- Results -->
 ## Results
