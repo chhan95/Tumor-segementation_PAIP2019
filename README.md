@@ -75,10 +75,8 @@ Only support single GPU, it will take 10 minutes per each WSI.
           In this project, we proposed the method for whole tumor and viable tumor segmentation in liver.
           <ul>
           Tumor definition
-            <li>whole tumor area: This area is defined as the outermost boundary
-            enclosing all dispersed viable tumor cell nests, tumor necrosis, and tumor capsule.
-            <li>Viable tumor area: This region is defined as viable tumor cell nests and as precisely as possible,
-            boundaries along the boundary between the cell and the surrounding stroma.
+            <li>whole tumor area: This area is defined as the outermost boundary enclosing all dispersed viable tumor cell nests, tumor necrosis, and tumor capsule.
+            <li>Viable tumor area: This region is defined as viable tumor cell nests and as precisely as possible, boundaries along the boundary between the cell and the surrounding stroma.
           </ul>
 
         </p>
