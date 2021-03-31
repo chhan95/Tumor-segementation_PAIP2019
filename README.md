@@ -45,10 +45,12 @@ Only support single GPU, it will take 10 minutes per each WSI.
 <!-- Our method -->
 ## Our method
 <p align="center">
+<h3><a href="https://chhan95.github.io/project/2021/03/15/paip2019.html"
+ method link</a></h3>
 
 
-<!--PAIP2019 challenge-->
-## PAIP2019 Challenge
+<!--Dataset-->
+## Dataset
 <p align="center">
     <a href="https://paip2019.grand-challenge.org">
         <img src="data/images/logo.png" alt="Logo">
@@ -65,6 +67,7 @@ Only support single GPU, it will take 10 minutes per each WSI.
     <li>
         <strong>background:</strong>
         <p>
+         The liver is a
         </p>
     </li>
     <li>
@@ -83,7 +86,7 @@ Only support single GPU, it will take 10 minutes per each WSI.
         <strong>evaluation</strong>
         <ul>
             <li>
-               <strong>Task1: Whole Tumor segmentation</strong>
+               <strong>Task1: Liver Cancer Segmentation</strong>
             </li>
             <li>
                 <strong>Task2: Viable Tumor Burden Estimation</strong>
