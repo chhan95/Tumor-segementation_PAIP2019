@@ -21,17 +21,27 @@
   ```
 * openslide-python
   ```sh
-  1. Download openslide from https://github.com/openslide/openslide-python
+  1. Download openslide from <a href="https://github.com/openslide/openslide-python">link</a>
 
+     change directory to openslide project
+
+     python setup.py install
   ```
   ```sh
   2. pip install openslide-python
   ```
-  
+
 * tifffile
   ```sh
   pip install tifffile
   ```
+<!--Support format-->
+##Support format
+openslide was used to read WSI.
+
+I tested .svs and .ndpi format.
+
+please check your wsi format
 
 <!-- How to use -->
 ## How to use
@@ -72,7 +82,7 @@ Code Structure
 Only support a single GPU, it will take 10 minutes per each WSI.
 <p align="center">
   <ol>
-    <li> Put your data into input_path(default: ./dataset) (only support .svs format)
+    <li> Put your data into input_path(default: ./dataset)
     <li> Download pretrained models into "./pretrained"
       <p>
         <a href="https://drive.google.com/drive/folders/1_XYv5gVB0OoAK8-GU5A64cVMQmkdd0He?usp=sharing">Pretrained model Link</a>
