@@ -196,6 +196,6 @@ Only support a single GPU, it will take 10 minutes per each WSI(40x).
         <a href="https://drive.google.com/file/d/12ReGYi7UZF7lPau33RnMqzxeMJWCdfJj/view">Our method PPT</a>
     </li>
     <li>
-        <a href="https://www.sciencedirect.com/science/article/pii/S1361841520302188">Paper of Challenge</a>
+        <a href="https://www.sciencedirect.com/science/article/pii/S1361841520302188">The paper of Challenge</a>
     </li>
 </ul>
