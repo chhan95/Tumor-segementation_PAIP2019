@@ -21,7 +21,7 @@
   ```
 * openslide-python
   ```sh
-  1. Download openslide from <a href="https://github.com/openslide/openslide-python">link</a>
+  1. Download openslide from <a href="https://github.com/openslide/openslide-python">openslide github</a>
 
      change directory to openslide project
 
@@ -35,8 +35,10 @@
   ```sh
   pip install tifffile
   ```
+
+
 <!--Support format-->
-##Support format
+## Support format
 openslide was used to read WSI.
 
 I tested .svs and .ndpi format.
