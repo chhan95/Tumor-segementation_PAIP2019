@@ -12,7 +12,6 @@ Options:
   --input_path=<path>                   Input WSI folder(.svs file only)[default: ./dataset]
   --output_path=<path>                  output of th model[default: ./output]
   --step_size=<n>                       step_size for sliding window[default: 256]
-  --show_samples=BOOL                   show compressed_sample[default: True]
 """
 from docopt import docopt
 from termcolor import cprint

@@ -41,7 +41,9 @@ openslide was used to read WSI.
 
 I tested .svs and .ndpi format.
 
-please check your wsi format
+If you want to use another format, add the line at inferManager.py(61)
+ex)
+  wsi_list += glob.glob(self.input_path+"/*.ndpi")
 
 <!-- How to use -->
 ## How to use
