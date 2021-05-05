@@ -21,9 +21,7 @@
   ```
 * openslide-python
   ```sh
-  1. Download openslide
-
-     openslide github(https://github.com/openslide/openslide-python)
+  1. Download project from openslide-python github
 
      python setup.py install
   ```
