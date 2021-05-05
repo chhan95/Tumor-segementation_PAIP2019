@@ -79,7 +79,7 @@ Code Structure
 ├── ....
 ```
 
-Only support a single GPU, it will take 10 minutes per each WSI.
+Only support a single GPU, it will take 10 minutes per each WSI(40x).
 <p align="center">
   <ol>
     <li> Put your data into input_path(default: ./dataset)
