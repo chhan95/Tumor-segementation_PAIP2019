@@ -58,6 +58,7 @@ class InferManager():
         print(colored('PREDICTION START', 'green'))
 
         wsi_list = glob.glob(self.input_path+"/*.svs")
+        wsi_list += glob.glob(self.input_path+"/*.ndpi")
 
         result_cls_list = []
         result_seg_list = []

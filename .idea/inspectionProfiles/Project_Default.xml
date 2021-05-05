@@ -1,0 +1,39 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="JupyterKernelInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JupyterPackageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="24">
+            <item index="0" class="java.lang.String" itemvalue="tokenizers" />
+            <item index="1" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="2" class="java.lang.String" itemvalue="gensim" />
+            <item index="3" class="java.lang.String" itemvalue="transformers" />
+            <item index="4" class="java.lang.String" itemvalue="html5lib" />
+            <item index="5" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="6" class="java.lang.String" itemvalue="nltk" />
+            <item index="7" class="java.lang.String" itemvalue="wget" />
+            <item index="8" class="java.lang.String" itemvalue="wordcloud" />
+            <item index="9" class="java.lang.String" itemvalue="mxnet" />
+            <item index="10" class="java.lang.String" itemvalue="numpy" />
+            <item index="11" class="java.lang.String" itemvalue="konlpy" />
+            <item index="12" class="java.lang.String" itemvalue="pandas" />
+            <item index="13" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="14" class="java.lang.String" itemvalue="kaggle" />
+            <item index="15" class="java.lang.String" itemvalue="jupyter" />
+            <item index="16" class="java.lang.String" itemvalue="seaborn" />
+            <item index="17" class="java.lang.String" itemvalue="gluonnlp" />
+            <item index="18" class="java.lang.String" itemvalue="seqeval" />
+            <item index="19" class="java.lang.String" itemvalue="sentencepiece" />
+            <item index="20" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="21" class="java.lang.String" itemvalue="xgboost" />
+            <item index="22" class="java.lang.String" itemvalue="tqdm" />
+            <item index="23" class="java.lang.String" itemvalue="h5py" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
