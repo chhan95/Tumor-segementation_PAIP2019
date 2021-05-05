@@ -21,8 +21,13 @@
   ```
 * openslide-python
   ```sh
-  pip install openslide-python
+  1. Download openslide from https://github.com/openslide/openslide-python
+
   ```
+  ```sh
+  2. pip install openslide-python
+  ```
+  
 * tifffile
   ```sh
   pip install tifffile
