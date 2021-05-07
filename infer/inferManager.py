@@ -21,7 +21,6 @@ class InferManager():
         self.step_size = int(args["step_size"])
         self.c_window_size = 1024
         self.s_window_size = 512
-        self.show_sample=args['show_samples']
         self.whole_class_net = self.load_weight("pretrained/whole_cls_model_net_26.pth",num_class=4)
         self.viable_class_net = self.load_weight("pretrained/viable_cls_model_net_52.pth")
         self.ambiguous_class_net = self.load_weight("pretrained/ambiguous_whole_tumor_cls_model_net_31.pth")
