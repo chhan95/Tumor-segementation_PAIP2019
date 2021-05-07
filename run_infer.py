@@ -8,7 +8,7 @@ Usage:
 Options:
   -h --help                             Show this screen.
   --version                             Show version.
-  --gpu=<id>                            GPU , only one gpu can be used. [default: 1]
+  --gpu=<id>                            GPU , only one gpu can be used. [default: 4]
   --input_path=<path>                   Input WSI folder(.svs file only)[default: ./dataset]
   --output_path=<path>                  output of th model[default: ./output]
   --step_size=<n>                       step_size for sliding window[default: 256]

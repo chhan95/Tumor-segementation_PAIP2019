@@ -4,11 +4,10 @@ import numpy as np
 from tqdm import trange
 import torch
 import matplotlib.pyplot as plt
-
+import tifffile
 def mkdir_s(path):
     if not os.path.exists(path):
         os.makedirs(path)
-
 
 def get_window(wsi_info, starting_point, window_size):
     wsi_w, wsi_h = wsi_info.level_dimensions[0]
@@ -78,3 +77,25 @@ def seg_prediction(result, s_net, img, start_w, start_h, foreground,window_size)
 
 
     return result
+
+def show_result(task1,task2):
+    task1_result=tifffile.imread(task1[0])
+    task2_result=tifffile.imread(task2[0])
+
+    plt.subplot(231)
+
+    plt.subplot(232)
+    plt.imshow(task1_result)
+    plt.subplot(233)
+    plt.imshow(task2_result)
+
+    task1_result = tifffile.imread(task1[0])
+    task2_result = tifffile.imread(task2[0])
+
+    plt.subplot(235)
+    plt.subplot(235)
+    plt.imshow(task1_result)
+    plt.subplot(236)
+    plt.imshow(task2_result)
+
+    plt.show()
