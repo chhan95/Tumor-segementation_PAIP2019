@@ -100,15 +100,19 @@ Only support a single GPU, it will take 10 minutes per each WSI(40x).
     <li> Run run_infer.sh
     <li> You can see your result at output_path(default: ./output).
       <p>
-
         prediction: This folder contains the binary maps of the segmentation results corresponding with original WSIs.
         <ul>
           <li> "?_v.tif" : viable tumor prediction
           <li>"?_wt.tif" : whole tumor area prediction
         </ul>
       </p>
+
       <p>
         thumbnail: This folder contains thumbnails, the resized segmentation results, which can be scaled by the "--rescale" arguments in a range of (0,1)
+        <ul>
+          <li> "?_v.png" : viable tumor resized image
+          <li>"?_wt.png" : whole tumor resized image
+        </ul>
       </p>
   </ol>
 </p>
