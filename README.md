@@ -47,12 +47,9 @@ If you want to use another format, add the command at inferManager.py(line :61)
 <!--Support format-->
 ## Thumbnail
 Because of the spatial size of WSI, it's not efficient to allocate the memory for chekcing the rusults corresponding with the original WSI.
-So, you can see the thumbnails at "output/thumbnail" folder.
-You can change '--rescale' arguments to adjust rescale factor for WSI in interval (0,1).
-If you make it into another range of input(ex -1), the program don't generate thumbnail.
-
-If you want to use another format, add the command at inferManager.py(line :61)
-<br>ex)wsi_list += glob.glob(self.input_path+"/*.ndpi")
+So, it will be easy to the thumbnails at the "output/thumbnail" folder.<br>
+You can change the rescale factor for WSI in interval (0,1) with '--rescale' arguments.<br>
+If you make it into another range of input ex) -1, the program don't generate thumbnail.
 <!-- How to use -->
 ## How to use
 Code Structure
