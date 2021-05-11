@@ -105,12 +105,13 @@ Only support a single GPU, it will take 10 minutes per each WSI(40x).
           <li> "?_v.tif" : viable tumor prediction
           <li>"?_wt.tif" : whole tumor area prediction
         </ul>
-      
-        thumbnail: This folder contains thumbnails, the resized segmentation results, which can be scaled by the "--rescale" arguments in a range of (0,1)
-        <ul>
-          <li> "?_v.png" : viable tumor resized image
-          <li>"?_wt.png" : whole tumor resized image
-        </ul>
+      </p>
+      <p>
+      thumbnail: This folder contains thumbnails, the resized segmentation results, which can be scaled by the "--rescale" arguments in a range of (0,1)
+      <ul>
+        <li> "?_v.png" : viable tumor resized image
+        <li>"?_wt.png" : whole tumor resized image
+      </ul>
       </p>
   </ol>
 </p>
