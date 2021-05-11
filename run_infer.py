@@ -12,6 +12,7 @@ Options:
   --input_path=<path>                   Input WSI folder(.svs file only)[default: ./dataset]
   --output_path=<path>                  output of th model[default: ./output]
   --step_size=<n>                       step_size for sliding window[default: 256]
+  --rescale=<n>                         generate thumbnail with the scale factor of real number in the interval (0,1)  [default: -1]
 """
 from docopt import docopt
 from termcolor import cprint
@@ -28,6 +29,7 @@ if __name__ == '__main__':
     cprint("Detect GPU: %d" % nr_gpus,"red")
 
     args = {k.replace('--', '') : v for k, v in args.items()}
+
 
     ##check args
     infer=inferManager.InferManager(args)

@@ -1,3 +1,7 @@
+import os.path
+
+import cv2
+
 from utils import *
 from classification_model.net import DenseCLSNet as c_net
 from segmentation_model.net import DenseUNet as s_net
@@ -19,6 +23,7 @@ class InferManager():
         self.input_path = args["input_path"]
         self.output_path = args["output_path"]
         self.step_size = int(args["step_size"])
+        self.rescale=float(args["rescale"])
         self.c_window_size = 1024
         self.s_window_size = 512
         self.whole_class_net = self.load_weight("pretrained/whole_cls_model_net_26.pth",num_class=4)
@@ -26,14 +31,12 @@ class InferManager():
         self.ambiguous_class_net = self.load_weight("pretrained/ambiguous_whole_tumor_cls_model_net_31.pth")
         self.viable_seg_net = self.load_weight("pretrained/viable_seg_model_net_46.pth",cls=False)
 
-        mkdir_s(self.output_path)
+        mkdir_s(os.path.join(self.output_path,"prediction"))
 
     def run(self):
         task1_result, task2_result = self.task()
         print("task1",task1_result)
         print("task2",task2_result)
-
-
         cprint("END", "green")
 
     def load_weight(self, path, cls=True, num_class=2):
@@ -50,7 +53,11 @@ class InferManager():
         net.load_state_dict(new_state)
         net=net.to('cuda')
         return net
-
+    def generate_thumnail(self,arr,wsi_name,type):
+        resized_arr = cv2.resize(arr, (0, 0), fx=0.01, fy=0.01,interpolation=cv2.INTER_NEAREST)
+        _,resized_arr=cv2.threshold(resized_arr,0,255,cv2.THRESH_BINARY)
+        cv2.imwrite(os.path.join(self.output_path,"thumbnail","{0}_{1}.png".format(wsi_name,type)),resized_arr)
+        return
     def task(self):
 
         # PREDICTION START
@@ -59,8 +66,8 @@ class InferManager():
         wsi_list = glob.glob(self.input_path+"/*.svs")
         wsi_list += glob.glob(self.input_path+"/*.ndpi")
 
-        result_cls_list = []
-        result_seg_list = []
+        result_wt_list = []
+        result_v_list = []
         with torch.no_grad():
             for wsi_path in wsi_list:
                 wsi_name = wsi_path.split("/")[-1]
@@ -88,15 +95,20 @@ class InferManager():
                 viable_tumor_result=viable_tumor_result*whole_tumor_result
 
                 whole_tumor_result = whole_tumor_result.astype('uint8')
-                tifffile.imsave(os.path.join(self.output_path,"{0}_wt.tif".format(wsi_name)) , whole_tumor_result, compress=9)
+                tifffile.imsave(os.path.join(self.output_path,"prediction","{0}_wt.tif".format(wsi_name)) , whole_tumor_result, compress=9)
 
                 viable_tumor_result = viable_tumor_result.astype('uint8')
-                tifffile.imsave(os.path.join(self.output_path,"{0}_v.tif".format(wsi_name)) , viable_tumor_result, compress=9)
+                tifffile.imsave(os.path.join(self.output_path,"prediction","{0}_v.tif".format(wsi_name)) , viable_tumor_result, compress=9)
 
-                result_cls_list.append([os.path.join(self.output_path,"{0}_wt.tif".format(wsi_name))])
-                result_seg_list.append([os.path.join(self.output_path,"{0}_v.tif".format(wsi_name))])
+                result_wt_list.append([os.path.join(self.output_path,"prediction","{0}_wt.tif".format(wsi_name))])
+                result_v_list.append([os.path.join(self.output_path,"prediction","{0}_v.tif".format(wsi_name))])
+                
+                if self.rescale >0 or self.rescale < 1:
+                    mkdir_s(os.path.join(self.output_path, "thumbnail"))
+                    self.generate_thumnail(whole_tumor_result,wsi_name,"wt")
+                    self.generate_thumnail(viable_tumor_result,wsi_name,"v")
 
-            return sorted(result_cls_list),sorted(result_seg_list)
+            return sorted(result_wt_list),sorted(result_v_list)
 
     def sliding_window(self,whole_tumor_result,viable_tumor_result,wsi_info,start_point):
         for x, y, window in get_window(wsi_info, start_point, self.c_window_size,):
