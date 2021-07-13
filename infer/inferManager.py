@@ -55,7 +55,6 @@ class InferManager():
         return net
     def generate_thumnail(self,arr,wsi_name,type):
         resized_arr = cv2.resize(arr, (0, 0), fx=0.01, fy=0.01,interpolation=cv2.INTER_NEAREST)
-        _,resized_arr=cv2.threshold(resized_arr,0,255,cv2.THRESH_BINARY)
         cv2.imwrite(os.path.join(self.output_path,"thumbnail","{0}_{1}.png".format(wsi_name,type)),resized_arr)
         return
     def task(self):
@@ -95,14 +94,19 @@ class InferManager():
                 viable_tumor_result=viable_tumor_result*whole_tumor_result
 
                 whole_tumor_result = whole_tumor_result.astype('uint8')
+                _,whole_tumor_result=cv2.threshold(whole_tumor_result,0,255,cv2.THRESH_BINARY)
+
                 tifffile.imsave(os.path.join(self.output_path,"prediction","{0}_wt.tif".format(wsi_name)) , whole_tumor_result, compress=9)
 
+
                 viable_tumor_result = viable_tumor_result.astype('uint8')
+                _,viable_tumor_result=cv2.threshold(viable_tumor_result,0,255,cv2.THRESH_BINARY)
+
                 tifffile.imsave(os.path.join(self.output_path,"prediction","{0}_v.tif".format(wsi_name)) , viable_tumor_result, compress=9)
 
                 result_wt_list.append([os.path.join(self.output_path,"prediction","{0}_wt.tif".format(wsi_name))])
                 result_v_list.append([os.path.join(self.output_path,"prediction","{0}_v.tif".format(wsi_name))])
-                
+
                 if self.rescale >0 or self.rescale < 1:
                     mkdir_s(os.path.join(self.output_path, "thumbnail"))
                     self.generate_thumnail(whole_tumor_result,wsi_name,"wt")
