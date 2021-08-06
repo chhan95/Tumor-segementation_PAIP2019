@@ -128,7 +128,6 @@ Only support a single GPU, it will take 10 minutes per each WSI(40x).
 <!--Dataset-->
 ## Dataset
 <p align="center">
-  
     <h3 align="center">PAIP2019</h3>
     <p align="center">
         PAIP2019 is the first challenge organized by the Pathology AI Platform (PAIP)
