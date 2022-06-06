@@ -1,13 +1,7 @@
 
 <!-- Our method -->
 ## Our method
-<p>
 
-
-  If you want more details, please visit my blog.
-  <h3><a href="https://chhan95.github.io/project/2021/03/15/paip2019.html">Details for train and infer</a></h3>
-
-</p>
 
 <!--Prerequisites-->
 ## Prerequisites
